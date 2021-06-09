@@ -1,0 +1,175 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.maincont{
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    background: rgba(248, 248, 248, 0.137);
+    box-shadow: 0 0.5rem 2rem 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1rem );
+    -webkit-backdrop-filter: blur( 1rem );
+    border-radius: 1vh;
+    border: 0.1vh solid rgba( 255, 255, 255, 0.18 );
+height: 92vh;
+width: 95vw;
+}
+.main a{
+    text-decoration: none;
+   color: aquamarine;
+    opacity: 70%;
+    font-size: 2rem;
+    font-family: monospace;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 90vw;
+    background: rgba( 80, 227, 194, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+justify-content: center;
+text-align: center;
+}
+.skills>section>button{
+    width: 6rem;
+    height: 4rem;
+    border-style: none;
+    border-radius: 1rem;
+    color: antiquewhite;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+
+}
+.skills h2{
+    font-size: 1.5rem;
+    font-family: monospace;
+    color: antiquewhite;
+}
+.skills>section>button:hover{
+    box-shadow: 1px 1px 1px 0.2rem rgba(0, 0, 0, 0.315);
+    color: #000428;
+    background: rgba(25, 0, 255, 0.25);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+  
+}
+.skills h2:hover{
+    color: rgb(0, 0, 0);
+}
+.main .social{
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    width: 35vw;
+
+height: 4rem;
+    justify-content: space-evenly;
+
+}
+.social button{
+    width: 4rem;
+    height: 3rem;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.541);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border-style: none;
+}
+.social button:hover{
+    width: 4.5rem;
+    height: 3.5rem;
+    color: #000428 !important;
+    box-shadow: 1px 1px 1px 40rem rgba(0, 0, 0, 0.356);
+}
+.header{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center  ;
+}
+.header>.menu>select{
+    width: 23vw;
+    height: 2rem;
+    color: rgb(11, 12, 12);
+    border-style: none;
+    border-radius: 0.1rem;
+    background: rgba(5, 205, 255, 0.541);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+   
+}
+.card{
+    display: flex;
+       padding: 10px;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 80vw;
+}
+.cont{
+    display: flex;
+    height: 80vh;
+    font-family: monospace;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card>button{
+    width: 7rem;
+    height: 2.3rem;
+    border-style: none;
+    border-radius: 0.5rem;
+    
+}
+.card>button>a{
+    font-size: 1rem;
+    color: #000428;
+}
+.card>p{
+    font-weight: 500;
+}
+.card>button:hover{
+    background-color: #3d4bc9;
+    box-shadow: 1px 1px 1px 0.1rem rgba(2, 2, 2, 0.651);
+}
+.card:hover{
+    background: rgba( 74, 144, 226, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: aliceblue;
+}
+.cont>h1{
+    color: rgba(0, 0, 0, 0.685);
+}
