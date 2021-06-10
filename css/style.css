@@ -174,7 +174,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .cont>h1{
     color: rgba(0, 0, 0, 0.685);
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 360px) {
     .skills>section>button{
         height: 1rem;
         width: 2rem;
