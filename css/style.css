@@ -176,11 +176,21 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 @media screen and (max-width: 550px) {
     .skills>section>button{
-        height: 2rem;
-        width: 3rem;
-        font-size: 0.4rem;
+        height: 3rem;
+        width: 4rem;
+        font-size: 0.5rem;
     }
     .main{
         height: 90vh;
+    }
+    .skills{
+        height: 50vh;
+    }
+    .social button{
+        height: 2rem;
+        width: 2rem;
+    }
+    .social>button>a{
+        font-size: 1.3rem;
     }
 }
