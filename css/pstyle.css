@@ -12,6 +12,7 @@ height: 150vh;
     }
     .cad{
         height: inherit;
+     
         line-height: 1.1rem;
     }
     .cad>p{
@@ -92,7 +93,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 40vw;
 }
 .p{
-    width: 85vw;
+    width: 90vw;
     justify-content: space-between;
     display: flex;
 }

@@ -167,13 +167,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .card:hover{
     background: rgba( 74, 144, 226, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 32px 0 rgba(10, 10, 10, 0.842);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: aliceblue;
-    
+    animation: card 2s normal;
+    overflow-y:hidden;
 }
 .cont>h1{
     color: rgba(0, 0, 0, 0.685);
@@ -209,92 +210,9 @@ height: 150vh;
         line-height: 1.1rem;
     }
 }
-.cad>button{
-    width: 7rem;
-    height: 2.3rem;
-    border-style: none;
-    border-radius: 0.5rem;
-    
-}
-.cad>button>a{
-    font-size: 1rem;
-    color: #000428;
-}
-.cad>p{
-    font-weight: 500;
-}
-.cad>button:hover{
-    background-color: #3d4bc9;
-    box-shadow: 1px 1px 1px 0.1rem rgba(2, 2, 2, 0.651);
-}
-.cad:hover{
-    background: rgba( 74, 144, 226, 0.25 );
-    box-shadow: 1px 8px 32px  rgb(0, 0, 0);
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    color: aliceblue;
 
-}
-.cad{
-    display: flex;
-       padding: 10px;
-       font-family:Verdana, Geneva, Tahoma, sans-serif;
-       color: #000428;
-    flex-direction: column;
-    background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 40vw;
-}
-.p{
-    width: 85vw;
-    justify-content: space-between;
-    display: flex;
-}
-.mainp{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    flex-direction: column;
-    background: rgba(248, 248, 248, 0.137);
-    box-shadow: 0 0.5rem 2rem 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 1rem );
-    -webkit-backdrop-filter: blur( 1rem );
-    border-radius: 1vh;
-    border: 0.1vh solid rgba( 255, 255, 255, 0.18 );
-height: 92vh;
-width: 95vw;
-}
-.maincontp{
-    background: #000428;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 160vh;
-width: 100vw;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.cad>h3{
-    font-size: 1rem;
-    color: rgba(240, 248, 255, 0.616);
-}
-.cad>img{
-    width: 5vw;
-    align-self: center;
-    height: 5vh;
-}
-.cad>img:hover{
-    animation: img 3s;
-}
-@keyframes img{
-    70%{
-        height: 30vh;
-        width: 40vw;
+@keyframes card{
+    50%{
+        transform: rotate3d(0,1,0,50deg);
     }
 }
