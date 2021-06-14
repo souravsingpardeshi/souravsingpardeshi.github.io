@@ -15,13 +15,13 @@ height: 150vh;
         line-height: 1.1rem;
     }
     .cad>p{
-        font-size: 0.1rem;
+        font-size: 0.28rem;
     }
     .cad>h2{
         font-size: 0.5rem;
     }
     .cad>h3{
-        font-size: 0.3rem;
+        font-size: 0.38rem;
     }
 }
 .cad>button{
@@ -115,7 +115,6 @@ justify-content: center;
 align-items: center;
 }
 .cad>h3{
-    font-size: 1rem;
     color: rgba(240, 248, 255, 0.616);
 }
 .cad>img{
