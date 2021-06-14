@@ -57,6 +57,11 @@ height: 150vh;
 }
 .cad>p{
     font-weight: 500;
+    color: #fdfdfdc9;
+}
+.cad>h3{
+    color: #00000080;
+
 }
 .cad>button:hover{
     background-color: #3d4bc9;
