@@ -102,10 +102,10 @@ backdrop-filter: blur( 4px );
 border-radius: 10px;
 border-style: none;
 }
-.social button:hover{
+.gitBtn:hover,.leetBtn:hover,.mailBtn:hover{
     width: 4.5rem;
     height: 3.5rem;
-    color: #000428 !important;
+    color: #FFF !important;
     box-shadow: 1px 1px 1px 40rem rgba(0, 0, 0, 0.356);
 }
 .header{
