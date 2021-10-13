@@ -4,27 +4,169 @@
 }
 .App{
   display: flex;
-  min-width: 100vw;
-  height: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  min-height: 100vh;
+  color: #C9D1D9;
+  background-color: #0D1117;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .Sidebar{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 70px;
-  width: 30vw;
+  height: 100%;
+  width: 20vw;
   justify-content: center;
-  margin-top: 60px;
+  padding: 2rem;
+  margin-top: -12rem;
 }
 .Container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70vw;
+  width: 66vw;
+  height: 100%;
+  margin-top: 7rem;
+  border: 3px solid #2b323b;
+  border-radius: 4px;
+  padding: 20px;
 }
 .Sidebar>img{
   border-radius: 50%;
-  width: 270px;
+  width: 15rem;
+  padding-top: 10px;
+}
+.Sidebar>h1{
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.Sidebar>p{
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.Sidebar .high{
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+
+}
+.Sidebar >h2{
+  font-size: 1rem;
+  font-weight: 400;
+  
+}
+.my{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.my>img{
+  width: 45%;
+}
+.my>h2{
+font-size: 1.2rem;
+}
+.my>p{
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+.Container>h4{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.banner{
+  width: 66vw;
+  height: 10rem;
+}
+.lan{
+  display: flex;
+  width: 50vw;
+  justify-content: space-around;
+}
+.lan1{
+  display: flex;
+  width: 50vw;
+  justify-content: space-around;
+}
+.Sidebar #pos{
+  border-bottom:3px solid #2b323b;
+  width:100%;
+  padding-bottom:10px;
+  font-weight:400;
+}
+@media screen and (max-width:670px) {
+  .App{
+    flex-direction:column;
+  }
+  .Sidebar{
+    margin: 0;
+    padding: 0px;
+    margin-left: 0;
+    align-items: center;
+  }
+  .Sidebar>h1{
+    width: 100vw;
+    text-align: center;
+  }
+  .Sidebar>p{
+    width: 100vw;
+    text-align: center;
+    padding: 1px;
+    font-weight: 700;
+  }
+  .Sidebar .high{
+    width: 100vw;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .Sidebar>img{
+    width: 80px;
+  }
+  .Container{
+    width: 80vw;
+  }
+  .banner{
+    width: 90vw;
+    height: 12vh;
+  }
+
+   .Sidebar #pos{
+    width: 100vw;
+    font-size: 1.5rem;
+  }
+  .my{
+    flex-direction: column-reverse;
+  }
+  .my>img{
+    width: 90vw;
+  }
+  .lan1>img{
+    width: 15vw;
+  }
+  .lan>img{
+    width: 15vw;
+  }
+  .Sidebar .high{
+    font-size: 1.4rem;
+  }
+  .Sidebar>h2{
+    width: 100vw;
+    text-align: center;
+    line-height: 2rem;
+  }
+  .Container{
+    margin: 0%;
+  }
+  #loc{
+    font-size: 1.2rem;
+  }
+  #lanc{
+    font-size: 1.8rem;
+    text-align: center;
+  }
 }
